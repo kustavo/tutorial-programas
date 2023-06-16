@@ -20,6 +20,7 @@ sudo update-secureboot-policy --enroll-key
 
 - Se a chave já estiver cadastrada, o script sairá sem fazer nada.
 - Se a chave existir, mas não for registrada, o usuário será solicitado a fornecer uma senha para usar após a reinicialização, para que a chave possa ser registrada.
+    - Selecione a opção do menu `Enroll MOK`.
 
 ## Remover entradas do menu boot EFI
 
