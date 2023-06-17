@@ -204,6 +204,7 @@ docker run hello-world
 ```
 
 > __Note__
+>
 > Saida:
 >
 > Unable to find image 'hello-world:latest' locally
@@ -250,6 +251,7 @@ docker images -f dangling=true
 ```
 
 > __Note__
+>
 > As imagens Docker consistem de várias camadas. As imagens pendentes são camadas que não têm relação com nenhuma imagem marcada. Elas não servem a um propósito e consomem espaço em disco.
 
 #### Remover imagem
@@ -293,7 +295,9 @@ docker run -it <imagem>
 ```
 
 > __Note__
+>
 > Saida:
+>
 > root@d9b100f2f636:/#
 
 Onde `d9b100f2f636` é o id do container.
