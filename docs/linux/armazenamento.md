@@ -1,36 +1,6 @@
-# Disco e Dispositivos IO
+# Armazenamento
 
-## Teclado
-
-### Mudança de Layout
-
-Configuração do teclado em layout americano internacional.
-
-```bash
-setxkbmap -model pc104 -layout us_intl
-```
-
-## Bluetooth
-
-### Problemas
-
-Bluetooth não é habilitado.
-
-```bash
-sudo rmmod btusb
-sudo modprobe btusb
-```
-
-Serviço não inicia automaticamente ao iniciar o sistema.
-
-```bash
-systemctl start bluetooth
-systemctl enable bluetooth
-```
-
-## Disco
-
-### Listar partições
+## Listar partições
 
 Comando para listar as partições:
 
@@ -39,7 +9,7 @@ $ df
 [-h] Grandeza informada baseada no tamanho.
 ```
 
-### Badblocks
+## Badblocks
 
 Comando para identificar e isolar badblocks:
 
