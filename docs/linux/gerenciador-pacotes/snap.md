@@ -6,25 +6,25 @@ Pacotes de software "snap" são auto-contidos e o funcionam por toda uma gama de
 
 ## Comandos
 
-Ver versão do snap
+Ver versão do snap:
 
 ```bash
 snap version
 ```
 
-Busca de aplicativos
+Busca de aplicativos:
 
 ```bash
 snap find "nome"
 ```
 
-Informação do aplicativo
+Informação do aplicativo:
 
 ```bash
 snap info <aplicativo>
 ```
 
-Instalação de aplicativos
+Instalação de aplicativos:
 
 ```bash
 sudo snap install <aplicativo>
@@ -36,7 +36,7 @@ sudo snap install --channel=edge <aplicativo>
 sudo snap switch --channel=stable <aplicativo>
 ```
 
-Remover aplicativo
+Remover aplicativo:
 
 ```bash
 sudo snap remove <aplicativo>
@@ -50,13 +50,13 @@ which <aplicativo>
 $ /snap/bin/<aplicativo>
 ```
 
-Executar aplicativo
+Executar aplicativo:
 
 ```bash
 /snap/bin/vlc
 ```
 
-Listar aplicativos instalados
+Listar aplicativos instalados:
 
 ```bash
 snap list
@@ -65,7 +65,7 @@ snap list
 snap list --all
 ```
 
-Atualizar os aplicativos
+Atualizar os aplicativos:
 
 ```bash
 sudo snap refresh <APLICATIVO>
@@ -74,17 +74,23 @@ sudo snap refresh <APLICATIVO>
 sudo snap refresh --channel=beta <APLICATIVO>
 ```
 
-Reverter para a versão anterior
+Reverter para a versão anterior:
 
 ```bash
 sudo snap revert <APLICATIVO>
 ```
 
-Desabilitar e habilitar um aplicativo
+Desabilitar e habilitar um aplicativo:
 
 ```bash
 sudo snap disable <APLICATIVO>
 sudo snap enable <APLICATIVO>
+```
+
+Permissão para acessar as mídias removíveis e outras partições:
+
+```bash
+snap connect <APLICATIVO>:removable-media
 ```
 
 ## Referências
