@@ -13,7 +13,6 @@ Tutorial sobre alguns programas.
     - [Gnome](docs/linux/gnome.md)
     - [Arch Linux](docs/linux/arch-linux.md)
     - [Certificado SSL](docs/linux/certificado-ssl.md)
-    - [Gnome](docs/linux/gnome.md)
     - [Sessão e usuário](docs/linux/sessao-e-usuario.md)
     - Gerenciador de pacotes
         - [Apt](docs/linux/gerenciador-pacotes/apt.md)
