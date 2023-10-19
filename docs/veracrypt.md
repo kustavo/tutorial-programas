@@ -10,7 +10,7 @@ VeraCrypt é um utilitário freeware (software livre),, usado para criptografia 
 
 Problemas ao exibir o nome dos arquivos com acentos.
 
-**Solução**: Adicione o comando abaixo nas opções de montagem ou em "Preferences" para uso geral.
+**Solução**: Adicione o comando abaixo em "Preferences" -> "Mount Options" para aplicar em todos pontos de montagem.
 
 ```ini
 iocharset=utf8
