@@ -11,7 +11,7 @@ Vim é um clone do programa editor de textos vi para Unix de Bill Joy. Foi escri
 - `k`: mover o cursor para cima
 - `h`: mover o cursor para a esquerda
 - `l`: mover o cursor para a direita
-- `ctrl i`: entrar no modo de edição no caracter em que está
+- `shift i`: entrar no modo de edição no caracter em que está
 - `shift a`: entrar no modo de edição no final da linha
 - `shift o`: entra no modo de edição em uma nova linha abaixo da atual
 - `gg`: ir para o início do arquivo
