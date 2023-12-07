@@ -48,6 +48,7 @@ Tutorial sobre alguns programas.
     - [Steam](docs/steam.md)
     - [Tmux](docs/tmux.md)
     - [VeraCrypt](docs/veracrypt.md)
+    - [Vim](docs/vim.md)
     - [Visual Studio Code](docs/visual-studio-code.md)
 - Dispositivos
     - [Archer T9E](docs/dispositivos/archer-t9e.md)
