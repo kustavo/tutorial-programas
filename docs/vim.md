@@ -51,4 +51,4 @@ Para copiar o código selecionado em algum lugar, dê um esc para voltar ao modo
 
 ## Referências
 
-- <https://dev.to/nfo94/comandos-basicos-do-vim-e-configuracoes-uteis-gkn?
+- <https://dev.to/nfo94/comandos-basicos-do-vim-e-configuracoes-uteis-gkn>
