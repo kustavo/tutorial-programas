@@ -158,8 +158,8 @@ wsl hostname -i
 ```bash
 wsl --export <nome-distribuicao> <nome-arquivo-saida>
 
-Opções:
---vhd: Exportação deve ser um arquivo .vhdx em vez de um arquivo .tar
+# Opções:
+# --vhd: Exportação deve ser um arquivo .vhdx em vez de um arquivo .tar
 ```
 
 ### Importar uma distribuição
@@ -167,8 +167,8 @@ Opções:
 ```bash
 wsl --import <nome-distribuicao> <local-instalacao> <nome-arquivo>
 
-Opções:
---vhd: Exportação deve ser um arquivo .vhdx em vez de um arquivo .tar
+# Opções:
+# --vhd: Exportação deve ser um arquivo .vhdx em vez de um arquivo .tar
 ```
 
 ### Importar uma distribuição em vigor
@@ -190,10 +190,10 @@ wsl --unregister <nome-distribuicao>
 ```bash
 wsl --mount <local-disco>
 
-Opções:
---vhd: especifica que se refere a um disco rígido virtual.
---name: nome personalizado para o ponto de montagem
---type <Filesystem>: tipo do sistema de arquivos. Padrão será ext4.
+# Opções:
+# --vhd: especifica que se refere a um disco rígido virtual.
+# --name: nome personalizado para o ponto de montagem
+# --type <Filesystem>: tipo do sistema de arquivos. Padrão será ext4.
 ```
 
 ### Desmontar discos
