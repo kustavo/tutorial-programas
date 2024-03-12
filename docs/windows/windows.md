@@ -85,6 +85,13 @@ wsl --list --online
 wsl --list --verbose
 ```
 
+### Executar
+
+```bash
+# Entrar no modo wsl
+wsl
+```
+
 ### Definir distribuição padrão
 
 ```bash
