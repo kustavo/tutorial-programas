@@ -30,6 +30,7 @@ Tutorial sobre alguns programas.
     - [Windows](docs/windows/windows.md)
 - Aplicativos
     - [7z](docs/7z.md)
+    - [AnyDesk](docs/anydesk.md)
     - [Disk Drill](docs/disk-drill.md)
     - [Firebase](docs/firebase.md)
     - [Imagemagick](docs/imagemagick.md)
