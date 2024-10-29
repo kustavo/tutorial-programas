@@ -10,7 +10,7 @@ Instalar via snap:
 
 ## Permissões
 
-Acesso a mídias sudo snap connect `foobar2000:removable-media`
+Acesso a mídias `sudo snap connect foobar2000:removable-media`
 
 
 
