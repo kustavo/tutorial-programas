@@ -33,6 +33,7 @@ Tutorial sobre alguns programas.
     - [AnyDesk](docs/anydesk.md)
     - [Disk Drill](docs/disk-drill.md)
     - [Firebase](docs/firebase.md)
+    - [Foobar](docs/foobar.md)
     - [Imagemagick](docs/imagemagick.md)
     - [Maven](docs/maven.md)
     - [Mkvtoolnix](docs/mkvtoolnix.md)
