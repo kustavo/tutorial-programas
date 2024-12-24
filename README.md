@@ -52,6 +52,7 @@ Tutorial sobre alguns programas.
     - [VeraCrypt](docs/veracrypt.md)
     - [Vim](docs/vim.md)
     - [Visual Studio Code](docs/visual-studio-code.md)
+    - [Zip](docs/zip.md)
 - Dispositivos
     - [Archer T9E](docs/dispositivos/archer-t9e.md)
     - [Bluetooth 5.0 Realtek RTL8761B](docs/dispositivos/bluetooth-realtek-rtl8761b.md)
