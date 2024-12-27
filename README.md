@@ -54,6 +54,7 @@ Tutorial sobre alguns programas.
     - [Visual Studio Code](docs/visual-studio-code.md)
     - [Zip](docs/zip.md)
 - Dispositivos
+    - [Poco X3 Pro](docs/dispositivos/poco-x3-pro.md)
     - [Archer T9E](docs/dispositivos/archer-t9e.md)
     - [Bluetooth 5.0 Realtek RTL8761B](docs/dispositivos/bluetooth-realtek-rtl8761b.md)
     - [Teclado BlitzWolf BW-KB1](docs/dispositivos/teclado-blitz-wolf-bw-kb1.md)
