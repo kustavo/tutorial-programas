@@ -77,7 +77,7 @@ ZSH_THEME="<nome-tema>"
 
     Definir `ZSH_THEME="powerlevel10k/powerlevel10k"` em `~/.zshrc`
 
-[Fonte](https://github.com/romkatv/powerlevel10k#installation)
+[Download Fontes](https://github.com/romkatv/powerlevel10k#installation)
 
 ## Plugins
 
@@ -144,6 +144,10 @@ Exemplo:
 ```bash
 alias lsa="ls -la"
 ```
+
+## VS Code
+
+Nas preferências usar Font Family = "MesloLGS NF"
 
 ## Referências
 
