@@ -79,7 +79,8 @@ Copiar o diretório EFI do Windows para dentro da EFI usada pelo linux.
 
 Isso não altera nada no Windows, e o dualboot passa a funcionar imediatamente.
 
-Passo 1 – Montar a EFI do Windows temporariamente
+Passo 1 – Montar a EFI do Windows temporariamente. 
+Nesse exemplo nvme0n1p1 é a partição EFI do windows.
 ```bash
 sudo mkdir -p /mnt/efi-win
 sudo mount /dev/nvme0n1p1 /mnt/efi-win
