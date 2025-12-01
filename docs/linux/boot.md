@@ -71,6 +71,44 @@ exit
 sudo bootctl --path=/mnt/boot/efi install
 ```
 
+## Dual boot EFI em disco diferente
+
+Obs: Testado com Pop!_OS
+
+Copiar o diretório EFI do Windows para dentro da EFI usada pelo linux.
+
+Isso não altera nada no Windows, e o dualboot passa a funcionar imediatamente.
+
+Passo 1 – Montar a EFI do Windows temporariamente
+```bash
+sudo mkdir -p /mnt/efi-win
+sudo mount /dev/nvme0n1p1 /mnt/efi-win
+```
+
+Passo 2 – Copiar o bootloader do Windows para a EFI do linux
+```bash
+sudo cp -r /mnt/efi-win/EFI/Microsoft /boot/efi/EFI/
+```
+
+Isso copiará a pasta Microsoft para dentro da EFI do linux, onde o systemd-boot realmente olha.
+
+Passo 3 – Verificar se a pasta está lá
+```bash
+sudo ls /boot/efi/EFI
+```
+
+Você deve ver:
+
+Boot  Microsoft  systemd  (e outros)
+
+Passo 4 – Atualizar o systemd-boot
+
+```bash
+sudo bootctl update
+```
+
+
+
 ### Modo de dormência
 
 Comando para o sistema entrar em modo de dormência até o tempo determinado. Substitui o antigo comando **apmsleep**.
